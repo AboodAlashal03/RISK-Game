@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow: auto; /* Allow scrolling */
+    padding: 20px;
+}
+
+/* Game Container */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 1500px;
+}
+
+/* Player Info Section - Horizontal Layout */
+.player-info-horizontal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.player-box-horizontal {
+    display: flex;
+    align-items: flex-start;
+    background: #2d2d2d;
+    padding: 20px;
+    border-radius: 8px;
+    width: 32%;
+    height: auto;
+    flex-grow: 1;
+}
+
+.player-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.player-details {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+}
+
+/* Game Board Section */
+.game-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border: 2px solid #444;
+    border-radius: 8px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto; /* Center the map horizontally within its container */
+}
+
+#game-map {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Game Controls Section */
+.game-controls {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    background-color: #666;
+}
