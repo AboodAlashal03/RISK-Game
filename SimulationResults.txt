@@ -1,4 +1,0 @@
-Player,Turns,Wins,Losses,Attacks,Successful Attacks,Failed Attacks,Defences,Successful Defences,Failed Defences,Dice Roll Count,Total Units Recruited,Total Units Lost,Territories Conquered,Territories Lost
-0,5212,21,39,35310,2023,3189,21346,1415,2317,86589,39419,36297,2023,2317
-1,6000,0,60,0,0,0,18091,1547,282,25995,33921,9247,0,282
-2,6000,39,21,23596,2442,1562,19469,1789,1866,65106,49281,27505,2442,1866
